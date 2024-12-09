@@ -4,7 +4,9 @@ import com.techxion.fitness.dto.request.SignUpRequest;
 import com.techxion.fitness.dto.request.SigninRequest;
 import com.techxion.fitness.dto.response.JwtAuthenticationResponse;
 import com.techxion.fitness.entity.SubscriptionStatus;
+import com.techxion.fitness.entity.UserProfile;
 import com.techxion.fitness.enums.Role;
+import com.techxion.fitness.repository.UserProfileRepository;
 import com.techxion.fitness.repository.UserRepository;
 import com.techxion.fitness.entity.User;
 import com.techxion.fitness.security.service.AuthenticationService;
@@ -17,18 +19,30 @@ import org.springframework.stereotype.Service;
 
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @RequiredArgsConstructor
 public class AuthenticationServiceImpl implements AuthenticationService {
     private final UserRepository userRepository;
+    private final UserProfileRepository userProfileRepository;
     private final PasswordEncoder passwordEncoder;
     private final JwtService jwtService;
     private final AuthenticationManager authenticationManager;
     @Override
+    @Transactional
     public JwtAuthenticationResponse signup(SignUpRequest request) {
-        var user = User.builder().username(request.getUserName()).email(request.getEmail()).subscriptionStatus(SubscriptionStatus.FREE).password(passwordEncoder.encode(request.getPassword()))
-                .role(Role.USER).build();
+
+        var userProfile = UserProfile.builder().build();
+        userProfileRepository.save(userProfile);
+
+        var user = User.builder().username(request.getUserName())
+                .email(request.getEmail())
+                .subscriptionStatus(SubscriptionStatus.FREE)
+                .password(passwordEncoder.encode(request.getPassword()))
+                .role(Role.USER)
+                .userProfile(userProfile)
+                .build();
         userRepository.save(user);
         var jwt = jwtService.generateToken(user);
         return JwtAuthenticationResponse.builder().token(jwt).build();
