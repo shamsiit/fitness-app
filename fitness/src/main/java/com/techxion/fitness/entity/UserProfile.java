@@ -1,5 +1,6 @@
 package com.techxion.fitness.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -25,5 +26,6 @@ public class UserProfile {
     @Column(name = "profile_pic_path")
     private String profilePicPath;
     @OneToOne(mappedBy = "userProfile")
+    @JsonIgnore
     private User user;
 }

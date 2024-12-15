@@ -1,5 +1,6 @@
 package com.techxion.fitness.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.techxion.fitness.enums.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -31,6 +32,7 @@ public class User implements UserDetails {
     private String email;
 
     @Column(nullable = false)
+    @JsonIgnore
     private String password;
 
     @Column(nullable = false)

@@ -8,5 +8,7 @@ import com.techxion.fitness.dto.response.JwtAuthenticationResponse;
 public interface AuthenticationService {
     JwtAuthenticationResponse signup(SignUpRequest request);
 
+    JwtAuthenticationResponse createAdminUser(SignUpRequest request);
+
     JwtAuthenticationResponse signin(SigninRequest request);
 }
