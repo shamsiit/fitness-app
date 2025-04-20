@@ -1,0 +1,82 @@
+# ========================
+# Java
+# ========================
+*.class
+*.log
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# ========================
+# Maven
+# ========================
+target/
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ========================
+# IDEs
+# ========================
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Environment & Credentials
+# ========================
+.env
+*.key
+*.pem
+*.p12
+*.crt
+
+# ========================
+# Database & Logs
+# ========================
+*.h2.db
+*.mv.db
+*.trace.db
+*.sql
+*.sqlite
+*.db
+*.log
+*.db-journal
+
+# ========================
+# Spring Boot Dev Tools
+# ========================
+.spring-boot-devtools.properties
+
+# ========================
+# Test Artifacts
+# ========================
+test-output/
+generated-test-sources/
