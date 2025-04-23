@@ -1,6 +1,6 @@
 # 🏋️‍♀️ Fitness & Workout Tracker API
 
-**Strong** is a full-featured RESTful workout tracking application designed for strength training and weightlifting enthusiasts. It enables users to:
+**Fit** is a full-featured RESTful workout tracking application designed for strength training and weightlifting enthusiasts. It enables users to:
 
 - Log workouts and exercises 📝
 - Track personal progress and 1RM 📈
