@@ -1,6 +1,6 @@
-package com.fitnessapp.repository;
+package com.fitnessapp.workout.repository;
 
-import com.fitnessapp.model.Workout;
+import com.fitnessapp.workout.model.Workout;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

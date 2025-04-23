@@ -1,9 +1,9 @@
 package com.fitnessapp.service.impl;
 
 import com.fitnessapp.dto.ProgressSummaryDto;
-import com.fitnessapp.model.Workout;
-import com.fitnessapp.model.WorkoutSet;
-import com.fitnessapp.repository.WorkoutRepository;
+import com.fitnessapp.workout.model.Workout;
+import com.fitnessapp.workout.model.WorkoutSet;
+import com.fitnessapp.workout.repository.WorkoutRepository;
 import com.fitnessapp.service.ProgressService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
