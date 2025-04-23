@@ -1,7 +1,9 @@
-package com.fitnessapp.controller;
+package com.fitnessapp.auth.controller;
 
-import com.fitnessapp.dto.*;
-import com.fitnessapp.service.AuthService;
+import com.fitnessapp.auth.dto.AuthRequest;
+import com.fitnessapp.auth.dto.AuthResponse;
+import com.fitnessapp.auth.dto.RegisterRequest;
+import com.fitnessapp.auth.service.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

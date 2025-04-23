@@ -1,6 +1,6 @@
 package com.fitnessapp.security;
 
-import com.fitnessapp.model.User;
+import com.fitnessapp.auth.model.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

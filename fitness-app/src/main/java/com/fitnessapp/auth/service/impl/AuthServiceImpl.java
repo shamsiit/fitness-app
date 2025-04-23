@@ -1,16 +1,16 @@
-package com.fitnessapp.service.impl;
+package com.fitnessapp.auth.service.impl;
 
-import com.fitnessapp.dto.*;
-import com.fitnessapp.model.Role;
-import com.fitnessapp.model.User;
-import com.fitnessapp.repository.UserRepository;
+import com.fitnessapp.auth.dto.AuthRequest;
+import com.fitnessapp.auth.dto.AuthResponse;
+import com.fitnessapp.auth.dto.RegisterRequest;
+import com.fitnessapp.auth.model.Role;
+import com.fitnessapp.auth.model.User;
+import com.fitnessapp.auth.repository.UserRepository;
 import com.fitnessapp.security.JwtUtil;
-import com.fitnessapp.service.AuthService;
+import com.fitnessapp.auth.service.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package com.fitnessapp.repository;
+package com.fitnessapp.auth.repository;
 
-import com.fitnessapp.model.User;
+import com.fitnessapp.auth.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

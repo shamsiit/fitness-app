@@ -1,6 +1,6 @@
 package com.fitnessapp.service.impl;
 
-import com.fitnessapp.repository.UserRepository;
+import com.fitnessapp.auth.repository.UserRepository;
 import com.fitnessapp.security.CustomUserDetails;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.*;

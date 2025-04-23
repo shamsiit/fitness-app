@@ -1,4 +1,4 @@
-package com.fitnessapp.dto;
+package com.fitnessapp.auth.dto;
 
 import lombok.*;
 
@@ -6,8 +6,7 @@ import lombok.*;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class RegisterRequest {
+public class AuthRequest {
     private String username;
-    private String email;
     private String password;
 }

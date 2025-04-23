@@ -1,5 +1,6 @@
 package com.fitnessapp.model;
 
+import com.fitnessapp.auth.model.User;
 import jakarta.persistence.*;
 import lombok.*;
 
