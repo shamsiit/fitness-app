@@ -1,6 +1,6 @@
-package com.fitnessapp.repository;
+package com.fitnessapp.exercise.repository;
 
-import com.fitnessapp.model.Exercise;
+import com.fitnessapp.exercise.model.Exercise;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ExerciseRepository extends JpaRepository<Exercise, Long> {}

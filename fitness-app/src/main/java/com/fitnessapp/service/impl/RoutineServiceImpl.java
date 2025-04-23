@@ -3,6 +3,8 @@ package com.fitnessapp.service.impl;
 import com.fitnessapp.auth.model.User;
 import com.fitnessapp.auth.repository.UserRepository;
 import com.fitnessapp.dto.*;
+import com.fitnessapp.exercise.model.Exercise;
+import com.fitnessapp.exercise.repository.ExerciseRepository;
 import com.fitnessapp.model.*;
 import com.fitnessapp.repository.*;
 import com.fitnessapp.service.RoutineService;

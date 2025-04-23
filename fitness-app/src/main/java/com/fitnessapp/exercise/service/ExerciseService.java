@@ -1,6 +1,6 @@
-package com.fitnessapp.service;
+package com.fitnessapp.exercise.service;
 
-import com.fitnessapp.dto.ExerciseDto;
+import com.fitnessapp.exercise.dto.ExerciseDto;
 
 import java.util.List;
 

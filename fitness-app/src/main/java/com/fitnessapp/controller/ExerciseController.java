@@ -1,7 +1,7 @@
 package com.fitnessapp.controller;
 
-import com.fitnessapp.dto.ExerciseDto;
-import com.fitnessapp.service.ExerciseService;
+import com.fitnessapp.exercise.dto.ExerciseDto;
+import com.fitnessapp.exercise.service.ExerciseService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,7 +1,6 @@
 package com.fitnessapp.workout.model;
 
-import com.fitnessapp.model.Exercise;
-import com.fitnessapp.workout.model.Workout;
+import com.fitnessapp.exercise.model.Exercise;
 import jakarta.persistence.*;
 import lombok.*;
 

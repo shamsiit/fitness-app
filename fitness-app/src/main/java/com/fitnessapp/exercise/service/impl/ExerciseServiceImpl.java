@@ -1,9 +1,9 @@
-package com.fitnessapp.service.impl;
+package com.fitnessapp.exercise.service.impl;
 
-import com.fitnessapp.dto.ExerciseDto;
-import com.fitnessapp.model.Exercise;
-import com.fitnessapp.repository.ExerciseRepository;
-import com.fitnessapp.service.ExerciseService;
+import com.fitnessapp.exercise.dto.ExerciseDto;
+import com.fitnessapp.exercise.model.Exercise;
+import com.fitnessapp.exercise.repository.ExerciseRepository;
+import com.fitnessapp.exercise.service.ExerciseService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

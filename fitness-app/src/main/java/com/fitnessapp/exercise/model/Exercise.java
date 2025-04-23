@@ -1,4 +1,4 @@
-package com.fitnessapp.model;
+package com.fitnessapp.exercise.model;
 
 import jakarta.persistence.*;
 import lombok.*;

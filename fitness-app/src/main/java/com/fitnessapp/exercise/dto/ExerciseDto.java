@@ -1,4 +1,4 @@
-package com.fitnessapp.dto;
+package com.fitnessapp.exercise.dto;
 
 import lombok.*;
 
