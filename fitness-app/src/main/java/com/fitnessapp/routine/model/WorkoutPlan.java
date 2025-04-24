@@ -1,4 +1,4 @@
-package com.fitnessapp.model;
+package com.fitnessapp.routine.model;
 
 import com.fitnessapp.exercise.model.Exercise;
 import jakarta.persistence.*;

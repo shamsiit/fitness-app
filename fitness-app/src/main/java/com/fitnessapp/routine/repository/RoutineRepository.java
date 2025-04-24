@@ -1,6 +1,6 @@
-package com.fitnessapp.repository;
+package com.fitnessapp.routine.repository;
 
-import com.fitnessapp.model.Routine;
+import com.fitnessapp.routine.model.Routine;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

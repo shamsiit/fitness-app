@@ -1,7 +1,7 @@
-package com.fitnessapp.controller;
+package com.fitnessapp.routine.controller;
 
-import com.fitnessapp.dto.RoutineDto;
-import com.fitnessapp.service.RoutineService;
+import com.fitnessapp.routine.dto.RoutineDto;
+import com.fitnessapp.routine.service.RoutineService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

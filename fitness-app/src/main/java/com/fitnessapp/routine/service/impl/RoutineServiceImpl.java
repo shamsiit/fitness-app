@@ -1,13 +1,18 @@
-package com.fitnessapp.service.impl;
+package com.fitnessapp.routine.service.impl;
 
 import com.fitnessapp.auth.model.User;
 import com.fitnessapp.auth.repository.UserRepository;
-import com.fitnessapp.dto.*;
 import com.fitnessapp.exercise.model.Exercise;
 import com.fitnessapp.exercise.repository.ExerciseRepository;
-import com.fitnessapp.model.*;
-import com.fitnessapp.repository.*;
-import com.fitnessapp.service.RoutineService;
+import com.fitnessapp.routine.dto.RoutineDto;
+import com.fitnessapp.routine.dto.WorkoutPlanDto;
+import com.fitnessapp.routine.model.Routine;
+import com.fitnessapp.routine.model.RoutineTemplate;
+import com.fitnessapp.routine.model.WorkoutPlan;
+import com.fitnessapp.routine.repository.RoutineRepository;
+import com.fitnessapp.routine.repository.RoutineTemplateRepository;
+import com.fitnessapp.routine.repository.WorkoutPlanRepository;
+import com.fitnessapp.routine.service.RoutineService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

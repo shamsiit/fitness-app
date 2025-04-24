@@ -1,4 +1,4 @@
-package com.fitnessapp.model;
+package com.fitnessapp.routine.model;
 
 import com.fitnessapp.auth.model.User;
 import jakarta.persistence.*;
