@@ -1,10 +1,10 @@
-package com.fitnessapp.service.impl;
+package com.fitnessapp.analytics.service.impl;
 
-import com.fitnessapp.dto.AnalyticsReport;
+import com.fitnessapp.analytics.dto.AnalyticsReport;
+import com.fitnessapp.analytics.service.AnalyticsService;
 import com.fitnessapp.workout.model.Workout;
 import com.fitnessapp.workout.model.WorkoutSet;
 import com.fitnessapp.workout.repository.WorkoutRepository;
-import com.fitnessapp.service.AnalyticsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

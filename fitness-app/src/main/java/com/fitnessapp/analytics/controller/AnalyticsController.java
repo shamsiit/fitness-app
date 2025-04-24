@@ -1,7 +1,7 @@
-package com.fitnessapp.controller;
+package com.fitnessapp.analytics.controller;
 
-import com.fitnessapp.dto.AnalyticsReport;
-import com.fitnessapp.service.AnalyticsService;
+import com.fitnessapp.analytics.dto.AnalyticsReport;
+import com.fitnessapp.analytics.service.AnalyticsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package com.fitnessapp.controller;
+package com.fitnessapp.analytics.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

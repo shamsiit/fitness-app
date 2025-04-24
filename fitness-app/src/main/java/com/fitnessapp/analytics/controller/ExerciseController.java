@@ -1,4 +1,4 @@
-package com.fitnessapp.controller;
+package com.fitnessapp.analytics.controller;
 
 import com.fitnessapp.exercise.dto.ExerciseDto;
 import com.fitnessapp.exercise.service.ExerciseService;

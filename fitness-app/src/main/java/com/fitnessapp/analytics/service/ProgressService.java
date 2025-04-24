@@ -1,6 +1,6 @@
-package com.fitnessapp.service;
+package com.fitnessapp.analytics.service;
 
-import com.fitnessapp.dto.ProgressSummaryDto;
+import com.fitnessapp.analytics.dto.ProgressSummaryDto;
 
 import java.util.List;
 

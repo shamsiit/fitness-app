@@ -1,4 +1,4 @@
-package com.fitnessapp.service.impl;
+package com.fitnessapp.analytics.service.impl;
 
 import com.fitnessapp.auth.repository.UserRepository;
 import com.fitnessapp.security.CustomUserDetails;
